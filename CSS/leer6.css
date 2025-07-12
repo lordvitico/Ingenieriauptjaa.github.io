@@ -1,0 +1,27 @@
+#btk {
+    border: none;
+    color: #007BFF;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+#btk:hover {
+    background-color:rgba(67, 70, 73, 0.3);
+}
+#txk{
+    max-height: 120px;
+    overflow: hidden;
+    transition: max-height 0.9s ease-in-out;
+    line-height: 1.6;
+}
+#txk.expandido {
+    max-height: 100000px;
+    overflow: visible;
+}
+#txk.hidden-text{
+    display: none;
+}
+#txk.expandido.hidden-text{
+    display: block;
+}

@@ -1,0 +1,24 @@
+#es1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto 30px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 1);
+    background-color: #f8f8f8;
+}
+
+#es1 h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.0em;
+    margin-bottom: 10px;
+    color: #000080;
+    text-align: center;
+}
+
+#es1 p {
+    margin-bottom: 15px;
+    color: black;
+    text-align: justify;
+}

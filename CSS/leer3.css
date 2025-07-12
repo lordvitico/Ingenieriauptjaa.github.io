@@ -1,0 +1,27 @@
+#btp {
+    border: none;
+    color: #007BFF;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+#btp:hover {
+    background-color:rgba(67, 70, 73, 0.3);
+}
+#txp{
+    max-height: 120px;
+    overflow: hidden;
+    transition: max-height 0.9s ease-in-out;
+    line-height: 1.6;
+}
+#txp.expandido {
+    max-height: 100000px;
+    overflow: visible;
+}
+#txp.hidden-text{
+    display: none;
+}
+#txp.expandido.hidden-text{
+    display: block;
+}

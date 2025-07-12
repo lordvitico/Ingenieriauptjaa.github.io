@@ -1,0 +1,27 @@
+#bt7 {
+    border: none;
+    color: #007BFF;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+#bt7:hover {
+    background-color:rgba(67, 70, 73, 0.3);
+}
+#tx7{
+    max-height: 120px;
+    overflow: hidden;
+    transition: max-height 0.9s ease-in-out;
+    line-height: 1.6;
+}
+#tx7.expandido {
+    max-height: 100000px;
+    overflow: visible;
+}
+#tx7.hidden-text{
+    display: none;
+}
+#tx7.expandido.hidden-text{
+    display: block;
+}

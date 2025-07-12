@@ -1,0 +1,14 @@
+.tornado {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: black;
+    text-align: left;
+}
+
+.louptj {
+    width: 125px;
+    height: auto;
+    float: left;
+    margin-right: 5px;
+    border-radius: 5px;
+}

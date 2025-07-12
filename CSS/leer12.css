@@ -1,0 +1,27 @@
+#bt8 {
+    border: none;
+    color: #007BFF;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+#bt8:hover {
+    background-color:rgba(67, 70, 73, 0.3);
+}
+#tx8{
+    max-height: 120px;
+    overflow: hidden;
+    transition: max-height 0.9s ease-in-out;
+    line-height: 1.6;
+}
+#tx8.expandido {
+    max-height: 100000px;
+    overflow: visible;
+}
+#tx8.hidden-text{
+    display: none;
+}
+#tx8.expandido.hidden-text{
+    display: block;
+}
